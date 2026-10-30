@@ -127,11 +127,17 @@ img {
 }
 
 /* EFEITO NAS IMAGENS DE TURISMO */
-.cartao-turismo img {
+.cartao-turismo img,
+.cartao-cultura img,
+.cartao-cidades img,
+.cartao-famosos img {
     transition: 0.3s;
 }
 
-.cartao-turismo img:hover {
+.cartao-turismo img:hover,
+.cartao-cidades img:hover,
+.cartao-famosos img:hover,
+.cartao-cultura img:hover {
     transform: scale(1.04);
 }
 
